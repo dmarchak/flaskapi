@@ -3,6 +3,7 @@
 """A simple Flask API that returns a JSON response."""
 
 from flask import Flask, jsonify, request
+
 app = Flask(__name__)
 
 
